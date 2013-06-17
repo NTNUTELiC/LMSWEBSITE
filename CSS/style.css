@@ -1,0 +1,109 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;
+	FONT-FAMILY: verdana, arial, times, georgia, sans-serif; BACKGROUND-COLOR:#B93B8F;
+	background-image:url(004.jpg);  
+	background-repeat: no-repeat; 
+    background-position: 45.5% 18%; 
+}
+
+A {
+	COLOR:#40a7d6 ; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #59bf3f; TEXT-DECORATION: none
+}
+#menu ul {
+  position: relative;top:20px;;left:16%;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  font-size: 14pt;
+  WIDTH:644px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  white-space: nowrap; /* 避免文字換行 */
+  text-shadow:0px  1px  1px  #000000;
+  
+}
+#menu ul li {
+  position: relative; /* 使子選單依照母選單的座標顯示 */
+}
+/* 設定母選單的連結樣式 */
+#menu ul li a {
+  text-decoration: none;
+  color: #460987;
+  padding: 10px 15px;
+  display: block;
+ 
+}
+
+#menu ul li a:only-child {
+  background: none;
+}
+#menu ul li:hover {
+  background: #F9B7FF;
+}
+#menu ul li:hover > a {
+  color: #1B5DA3;
+}
+
+#menu nav > ul > li {
+  display: inline-block; /* 使一級選單排成一橫列 */
+}
+
+	
+#main {
+	
+	position:relative;left:1%;right :100%;
+	font-size:12px;
+	BORDER-RIGHT: gray 0px groove; BORDER-TOP: gray 0px groove; MARGIN: 0px auto; 
+	BORDER-LEFT: gray 0px groove; WIDTH:1000px; BORDER-BOTTOM: gray 0px groove; min-height: 500px; height: auto;
+	-webkit-border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px px px;
+    background-image:url(000.png);
+	
+	
+}
+.wrap{width:100%;clear:both;}.main{width:980px;max-width:1200px;margin:0 auto;position:relative;}
+#CONTENT{
+	
+	position:relative;left:1%;right :100%;top:20px;
+	font-size:15px;
+	BORDER-RIGHT: gray 0px groove; BORDER-TOP: gray 0px groove; MARGIN: 0px auto; 
+	BORDER-LEFT: gray 0px groove; WIDTH:1000px; BORDER-BOTTOM: gray 0px groove; min-height: 352px; height: auto;
+	-webkit-border-radius: 15px 15px 0px 0px;
+   
+	
+}
+#middle {
+	
+	/*PADDING-RIGHT: 3.5%; PADDING-LEFT: 3.5%; FLOAT: left; WIDTH: 54%; LINE-HEIGHT: 1.6em; PADDING-TOP: 10px*/
+}
+#middle H1 {
+	FONT-SIZE: 18px; PADDING-TOP: 5px; BORDER-BOTTOM: #c4c4c4 1px dotted; FONT-FAMILY: 微軟正黑體,
+標楷體, 細明體, helvetica, arial, georgia, times, sans-serif
+}
+#right {
+FONT-SIZE: 18px; FLOAT: right; WIDTH: 18%; LINE-HEIGHT: 1.6em;  FONT-FAMILY: 微軟正黑體,標楷體, 細明體;LINE-HEIGHT: 1.6em; PADDING-TOP: 5px;PADDING-RIGHT: 5px
+}
+#right H1 {
+	FONT-SIZE: 18px; PADDING-TOP: 5px; BORDER-BOTTOM: #c4c4c4 1px dotted; FONT-FAMILY: 微軟正黑體,
+標楷體, 細明體, helvetica, arial, georgia, times, sans-serif
+}
+#FOOTER ul {
+  list-style:none;
+  WIDTH:644px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  white-space: nowrap; /* 避免文字換行 */
+  position: relative;left:0.2%;
+}
+#FOOTER ul li {
+  position: relative; /* 使子選單依照母選單的座標顯示 */
+}
+#FOOTER nav > ul > li {
+  display: inline-block; /* 使一級選單排成一橫列 */
+}
+
+.showall { /* 表格樣式 */
+	/*background-COLOR: #FFCF63;*/  font-size:13pt;  border-color:black
+}
+
