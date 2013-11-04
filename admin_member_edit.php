@@ -34,7 +34,7 @@
 	</div>
 <div id="CONTENT">
 	<p>
-		<h2>管理者專區<br/></h2>
+		<h2>管理者專區<br/></h2>)//修改
 		<br/>
 		<br/>
 		<center>
