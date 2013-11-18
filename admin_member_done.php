@@ -8,7 +8,7 @@
 	$username = $_POST['username'];
 	$email = $_POST['email'];
 	$country = $_POST['country'];
-	$age = $_POST['age'];
+	$age = $_POST['age'];//
 	$button = $_POST['button'];  //把上一頁傳送的資料都先放進其它變數裡
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
